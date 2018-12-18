@@ -9,7 +9,7 @@ using System.Data;
 //solution explorer on add references-> .Net -> select System.Windows.Forms. 
 using System.Windows.Forms;
 
-namespace ConnectToMysqlDatabase
+namespace VendegProjekt
 {
     class MySQLDatabaseInterface
     {
