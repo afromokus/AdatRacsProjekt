@@ -145,7 +145,7 @@ namespace VendegProjekt
             }
             catch (MySqlException e)
             {
-                setErrorDataAndShow("Adatbázis kapcsolat nem jött létre.");
+                setErrorDataAndShow("Adatbázis kapcsolat nem jött létre." + "(" + e.Message + ")");
             }
             return true;
             
