@@ -12,8 +12,8 @@ namespace VendegProjekt
             MySQLDatabaseInterface mdi = new MySQLDatabaseInterface();
             mdi.setErrorToUserInterface(true);
             mdi.setErrorToGraphicalUserInterface(false);
-            mdi.setConnectionServerData("192.168.0.100", "szoftverf","3306");
-            mdi.setConnectionUserData("szoftverf", "szoftverf");
+            mdi.setConnectionServerData("127.0.0.1", "vendeg","3306");
+            mdi.setConnectionUserData("root", "");
             mdi.makeConnectionToDatabase();        
 
             return mdi;

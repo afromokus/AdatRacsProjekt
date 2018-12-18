@@ -1,3 +1,5 @@
+CREATE DATABASE vendeg CHARACTER SET 'utf8' COLLATE 'utf8_hungarian_ci';
+
 CREATE TABLE vendegek (
   vsorsz int,
   vnev varchar(16),
@@ -282,5 +284,4 @@ INSERT INTO vendegek (vsorsz, vnev, irsz) VALUES
 (274, 'Mészáros Dorina', 2360),
 (275, 'Gulyás Ágnes', 2209),
 (276, 'Hegedűs András', 7811),
-(277, 'Magyar Enikő', 9535);
 (277, 'Magyar Enikő', 9535);

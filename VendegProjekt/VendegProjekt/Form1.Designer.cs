@@ -28,21 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.adatRacs = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.adatRacs)).BeginInit();
             this.SuspendLayout();
+            // 
+            // adatRacs
+            // 
+            this.adatRacs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.adatRacs.Dock = System.Windows.Forms.DockStyle.Left;
+            this.adatRacs.Location = new System.Drawing.Point(0, 0);
+            this.adatRacs.Name = "adatRacs";
+            this.adatRacs.Size = new System.Drawing.Size(679, 450);
+            this.adatRacs.TabIndex = 0;
+            this.adatRacs.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.adatRacs_CellContentClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(812, 450);
+            this.Controls.Add(this.adatRacs);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.adatRacs)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView adatRacs;
     }
 }
 
